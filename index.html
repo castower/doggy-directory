@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>&#x1F43E; Doggy Directory &#x1F43E;</title>
+    <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <h1> <div class="h1text"> <a class="h1link" href="./index.html">The Doggy Directory</a> </h1>
+  <div class="doggos">
+    <div class="background">
+      <h2>Find photos of all your favorite doggy breeds in the DogCEO database!</h2>  
+      <label for="breed"></label>
+      <select id="breedSelect" name="breed">
+        <option value="allbreeds">All Breeds</option>
+      </select>
+      <button class="search">Search the directory</button>
+      <div class="lds-spinner hide"><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div><div></div></div>
+      <div class="imageholder">
+        <p class="message"> "Happiness is a warm puppy." &mdash; Charles Shultz (cartoonist, Peanuts)</p>
+        <img class="image" src="./images/paw-print-heart.jpg" alt="burgundy background with pawprints in the shape of a heart">
+      </div>
+    </div>
+  </div>
+  <div class="footer"> 
+    <div class="footer_text">Copyright &copy; 2023 Created by Courtney Stowers <a href="https://github.com/castower/" class="fa icon" target="_blank" rel="noopener noreferrer">&#xf09b; </a> as part of the
+      <a class="fem_link" href="https://frontendmasters.github.io/bootcamp/ajax" target="_blank" rel="noopener noreferrer">Frontend Masters Bootcamp</a>
+    </div>
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/animejs/3.2.0/anime.min.js"></script>
+  <script src="./dog-api-pull.js"></script>
+ 
+</body>
+</html>

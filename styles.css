@@ -1,0 +1,192 @@
+@import url('https://fonts.googleapis.com/css2?family=Caprasimo&family=Kablammo&family=Macondo&family=Noto+Color+Emoji&family=Roboto+Condensed&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Henny+Penny&family=Limelight&display=swap');
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+body {
+    padding: 0px;
+    margin: 0px;
+    background-image: url('./images/bones-background-medium.jpg');
+}
+
+h1 {
+    font-family: 'Henny Penny', cursive;
+    background-color: #E3DAC9;
+    margin: 0;
+    padding: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    text-align: center;
+    font-size: 50px;
+}
+
+h2 {
+    margin-top:10px;
+    margin-bottom: 5px;
+}
+
+option, select, .message {
+    text-transform: capitalize;
+}
+
+.message {
+    font-family: 'Caprasimo', cursive;
+}
+
+.doggos {
+    margin: 20px;
+    padding:10px;
+    display: flex;
+}
+
+.background {
+    padding: 20px;
+    background-color: rgba(255, 255, 255, .6);
+    width:fit-content;
+    flex: 1;
+    text-align: center;
+}
+
+.imageholder {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+img {
+    height: 320px;
+    align-items: center;
+}
+
+
+button {
+    background-color: #C19A6B;
+    border: none;
+    color: white;
+    padding: 5px;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: bold;
+  }
+
+button:hover {
+    background-color: #AF6E4D;
+}
+
+.footer {
+    text-align: right;
+    margin-top: 0px;
+    padding-top: 0px;
+    margin-bottom: 10px;
+    padding-right: 20px;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+a {
+    text-decoration: none; 
+    color:#000000;
+}
+
+.fem_link {
+    font-size: 16px;
+    color: #7C0902;
+    font-weight: bold;
+  }
+
+.fem_link:hover{
+    color: #000000;    
+  }
+
+.fa {
+    font-size: 20px;
+    color: #7C0902;
+  }
+
+.fa:hover {
+    color: #000000;
+  }
+
+/*  CSS Loading Spinning Wheel */
+
+.hide {
+    visibility: hidden;
+}
+
+.lds-spinner {
+color: official;
+display: inline-block;
+position: relative;
+width: 40px;
+height: 40px;
+}
+.lds-spinner div {
+transform-origin: 40px 40px;
+animation: lds-spinner 1.2s linear infinite;
+}
+.lds-spinner div:after {
+content: " ";
+display: block;
+position: absolute;
+top: 3px;
+left: 37px;
+width: 6px;
+height: 18px;
+border-radius: 20%;
+background: #7C0902;
+}
+.lds-spinner div:nth-child(1) {
+transform: rotate(0deg);
+animation-delay: -1.1s;
+}
+.lds-spinner div:nth-child(2) {
+transform: rotate(30deg);
+animation-delay: -1s;
+}
+.lds-spinner div:nth-child(3) {
+transform: rotate(60deg);
+animation-delay: -0.9s;
+}
+.lds-spinner div:nth-child(4) {
+transform: rotate(90deg);
+animation-delay: -0.8s;
+}
+.lds-spinner div:nth-child(5) {
+transform: rotate(120deg);
+animation-delay: -0.7s;
+}
+.lds-spinner div:nth-child(6) {
+transform: rotate(150deg);
+animation-delay: -0.6s;
+}
+.lds-spinner div:nth-child(7) {
+transform: rotate(180deg);
+animation-delay: -0.5s;
+}
+.lds-spinner div:nth-child(8) {
+transform: rotate(210deg);
+animation-delay: -0.4s;
+}
+.lds-spinner div:nth-child(9) {
+transform: rotate(240deg);
+animation-delay: -0.3s;
+}
+.lds-spinner div:nth-child(10) {
+transform: rotate(270deg);
+animation-delay: -0.2s;
+}
+.lds-spinner div:nth-child(11) {
+transform: rotate(300deg);
+animation-delay: -0.1s;
+}
+.lds-spinner div:nth-child(12) {
+transform: rotate(330deg);
+animation-delay: 0s;
+}
+@keyframes lds-spinner {
+0% {
+    opacity: 1;
+}
+100% {
+    opacity: 0;
+}
+}

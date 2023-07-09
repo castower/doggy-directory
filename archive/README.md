@@ -1,0 +1,1 @@
+# Folder for resource files that are no longer in use
